@@ -25,7 +25,7 @@ sudo pacman -Rcns firefox --noconfirm
 
 sudo pacman -Syyuu --noconfirm
 
-sudo pacman -S brave-browser ranger discord appimagelauncher git gnome-weather gnome-disk-utility mpv steam bashtop wayland plasma-wayland-session unzip timeshift --noconfirm
+sudo pacman -S brave-browser yay ranger discord appimagelauncher git gnome-weather gnome-disk-utility mpv steam bashtop wayland plasma-wayland-session unzip timeshift --noconfirm
 
 #wget downloading section (appimage, ect)
 
@@ -41,7 +41,7 @@ sudo make install
 sudo rm /etc/systemd/system/display-manager.service
 sudo systemctl enable ly.service
 cd ..
-pwd
+
 unzip balena-etcher-electron-1.7.9-linux-x64.zip\?d_id=ba9e796e-208e-4784-87a2-088b84e516e8R
 
 rm -rf balena-etcher-electron-1.7.9-linux-x64.zip\?d_id=ba9e796e-208e-4784-87a2-088b84e516e8R
@@ -50,6 +50,8 @@ git clone https://github.com/JasonJ46/Wallpaper.git
 cd Wallpaper/
 rm LICENSE
 cd ..
+
+
 
 echo "The installer is now finished you may want to reboot for some changes to take effect."
 
